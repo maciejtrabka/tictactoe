@@ -1,0 +1,71 @@
+html {
+    background-color: cornsilk;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#htmlToDisplayBoard {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-items: center;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+
+#newGameBtn {
+    border-radius: 50%;
+    padding: 30px;
+    color: white;
+    background-color: black;
+    font-size: large;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#player1 {
+    position: absolute;
+    left: 150px;
+    bottom: 50px;
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    border-radius: 20%;
+}
+
+#player2 {
+    position: absolute;
+    right: 150px;
+    bottom: 50px;
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    border-radius: 20%;
+}
+
+.fields {
+    background-color: whitesmoke;
+    padding: 38px;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 32px 42px;
+}
+
+#htmlToDisplayWinner {
+    font-size: xx-large;
+    text-align: center;
+}
